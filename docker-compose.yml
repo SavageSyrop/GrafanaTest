@@ -1,0 +1,9 @@
+version: '3.1'
+
+services:
+  app:
+    container_name: grafanaTest
+    image: grafanaTest
+    build: ./
+    ports:
+      - "8099:8099"
