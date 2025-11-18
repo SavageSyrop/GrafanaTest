@@ -1,4 +1,4 @@
-FROM openjdk:21-rc-jdk-slim
+FROM eclipse-temurin
 
 ARG JAR_FILE=target/*.jar
 COPY ${JAR_FILE} app.jar
