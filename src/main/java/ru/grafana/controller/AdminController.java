@@ -28,4 +28,9 @@ public class AdminController {
         System.out.println("Application finished."); // This line might not be reached
     }
 
+    @GetMapping("/test")
+    public String test() {
+       return "Active";
+    }
+
 }
